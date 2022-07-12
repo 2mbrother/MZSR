@@ -17,7 +17,7 @@ parser.add_argument('--num', type=int, dest='num_of_adaptation', choices=[1,10],
 parser.add_argument('--trial', type=int, dest='trial', default=0)
 parser.add_argument('--step', type=int, dest='step', default=0)
 parser.add_argument('--train', dest='is_train', default=False, action='store_true')
-
+#newcode
 args= parser.parse_args()
 
 #Transfer Learning From Pre-trained model.
